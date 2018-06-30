@@ -4,7 +4,7 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"label": _("Informes"),
+			"label": _("Asistente para Informes"),
 			"items": [
 				{
 					"type": "doctype",
@@ -17,7 +17,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Maestro de Datos"),
+			"label": _("Registros Auxiliares"),
 			"items": [
 				{
 					"type": "doctype",
@@ -41,19 +41,19 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Maestro de Matrices"),
+			"label": _("Matrices"),
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Matrices",
+					"name": "Matriz Objetivos",
 				},
 				{
 					"type": "doctype",
-					"name": "Matrices",
+					"name": "Matrices Standard",
 				},
 				{
 					"type": "doctype",
-					"name": "Tipo Servicio",
+					"name": "Matriz",
 				},
 				{
 					"type": "doctype",
