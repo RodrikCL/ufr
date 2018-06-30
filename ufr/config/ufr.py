@@ -8,7 +8,11 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Crear Informe",
+					"name": "Crear Informe Servicio",
+				},
+				{
+					"type": "doctype",
+					"name": "Crear Informe Certificacion"
 				}
 			]
 		},
@@ -37,7 +41,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Maestro de Registros"),
+			"label": _("Maestro de Matrices"),
 			"items": [
 				{
 					"type": "doctype",
