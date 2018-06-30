@@ -13,9 +13,9 @@ with open('ufr/__init__.py', 'rb') as f:
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='ufr',
-	version=0.0.2,
-	description='Ultra Fast Reports',
+	name='FastReports',
+	version=version,
+	description='Fast Reports',
 	author='RP',
 	author_email='ufr@rpingenieria.com',
 	packages=find_packages(),
