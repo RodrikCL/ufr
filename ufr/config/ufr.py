@@ -17,8 +17,23 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Leave Period",
+					"name": "Objetivos Servicio",
+				},
+				{
+					"type": "doctype",
+					"name": "Matrices",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo Servicio",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo Tecnología",
 				}
+				
+				
+				
 			]
 		}
 	]
