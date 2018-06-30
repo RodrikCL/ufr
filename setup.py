@@ -14,8 +14,8 @@ with open('ufr/__init__.py', 'rb') as f:
 
 setup(
 	name='ufr',
-	version=version,
-	description='ufr',
+	version=0.0.2,
+	description='Ultra Fast Reports',
 	author='RP',
 	author_email='ufr@rpingenieria.com',
 	packages=find_packages(),
