@@ -4,7 +4,7 @@
  "allow_import": 0, 
  "allow_rename": 0, 
  "beta": 0, 
- "creation": "2018-06-30 01:16:34.174934", 
+ "creation": "2018-06-30 13:46:51.588854", 
  "custom": 0, 
  "docstatus": 0, 
  "doctype": "DocType", 
@@ -27,7 +27,6 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
-   "label": "Tipo de Servicio", 
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -53,10 +52,10 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2018-06-30 13:39:46.999338", 
+ "modified": "2018-06-30 13:46:56.326765", 
  "modified_by": "Administrator", 
  "module": "Ufr", 
- "name": "Tipo Servicio", 
+ "name": "Crear Informe Certificacion", 
  "name_case": "", 
  "owner": "Administrator", 
  "permissions": [
@@ -81,7 +80,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "show_name_in_global_search": 0, 
