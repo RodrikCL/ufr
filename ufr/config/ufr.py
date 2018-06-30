@@ -8,7 +8,7 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Informe de Servicio",
+					"name": "Crear Informe",
 				}
 			]
 		},
