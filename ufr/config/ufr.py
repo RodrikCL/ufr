@@ -35,5 +35,29 @@ def get_data():
 				
 				
 			]
+		},
+		{
+			"label": _("Maestro de Registros"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Matrices",
+				},
+				{
+					"type": "doctype",
+					"name": "Matrices",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo Servicio",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo Tecnologia",
+				}
+				
+				
+				
+			]
 		}
 	]
