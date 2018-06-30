@@ -29,7 +29,7 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Tipo Tecnología",
+					"name": "Tipo Tecnologia",
 				}
 				
 				
