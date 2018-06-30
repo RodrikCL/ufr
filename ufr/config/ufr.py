@@ -25,18 +25,17 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Matrices",
-				},
-				{
-					"type": "doctype",
 					"name": "Tipo Servicio",
 				},
 				{
 					"type": "doctype",
 					"name": "Tipo Tecnologia",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo Certificacion",
 				}
-				
-				
+							
 				
 			]
 		},
@@ -53,12 +52,9 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Matriz",
+					"name": "Matrices Certificacion",
 				},
-				{
-					"type": "doctype",
-					"name": "Tipo Tecnologia",
-				}
+				
 				
 				
 				
