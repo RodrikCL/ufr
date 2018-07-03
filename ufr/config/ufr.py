@@ -38,6 +38,13 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Tipo Certificacion",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo Anexo",
+				},{
+					"type": "doctype",
+					"name": "Matriz Objetivos",
 				}
 							
 				
@@ -46,10 +53,7 @@ def get_data():
 		{
 			"label": _("Matrices"),
 			"items": [
-				{
-					"type": "doctype",
-					"name": "Matriz Objetivos",
-				},
+				
 				{
 					"type": "doctype",
 					"name": "Matrices Standard",
