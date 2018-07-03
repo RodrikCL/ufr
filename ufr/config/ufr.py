@@ -8,11 +8,15 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Crear Informe Servicio",
+					"name": "Crear Informe Standard",
 				},
 				{
 					"type": "doctype",
 					"name": "Crear Informe Certificacion"
+				},
+				{
+					"type": "doctype",
+					"name": "Crear Informe Actividades"
 				}
 			]
 		},
