@@ -1380,7 +1380,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 100, 
- "modified": "2018-07-03 20:47:50.720112", 
+ "modified": "2018-07-05 13:33:05.539370", 
  "modified_by": "Administrator", 
  "module": "Ufr", 
  "name": "Crear Informe Standard", 
@@ -1411,11 +1411,11 @@
  "quick_entry": 1, 
  "read_only": 0, 
  "read_only_onload": 0, 
- "search_fields": "tipo_serv,customer,oc_cliente,fecha_inicio", 
+ "search_fields": "customer,oc_cliente,fecha_inicio", 
  "show_name_in_global_search": 0, 
  "sort_field": "modified", 
  "sort_order": "DESC", 
- "title_field": "tipo_serv", 
+ "title_field": "", 
  "track_changes": 1, 
  "track_seen": 0
 }
