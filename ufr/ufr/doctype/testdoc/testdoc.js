@@ -3,16 +3,8 @@
 
 frappe.ui.form.on('TestDoc', {
 	refresh: function(frm) {
-<<<<<<< HEAD
-let chart = new frappe.Chart( "#chart", { // or DOM element
-    data: {
-      labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
-      "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
-=======
-    }
->>>>>>> 4a03ce8ef915eb7bc68dca260423b00c1f314983
 
-  let chart = new frappe.Chart( "#chart", { // or DOM element
+  let chart = new frappe.Chart( "#chart", {
 	data: {
 	labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
 		"12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
@@ -37,7 +29,7 @@ let chart = new frappe.Chart( "#chart", { // or DOM element
 	yRegions: [{ label: "Region", start: -10, end: 50,
 		options: { labelPos: 'right' }}]
 	},
-
+	parent:frm.fields_dict["graf"].wrapper,
 	title: "My Awesome Chart",
 	type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
 	height: 300,
