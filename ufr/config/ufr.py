@@ -67,5 +67,23 @@ def get_data():
 				
 				
 			]
+		},
+		{
+			"label": _("Test"),
+			"items": [
+				
+				{
+					"type": "doctype",
+					"name": "TestDoc",
+				},
+				{
+					"type": "doctype",
+					"name": "",
+				},
+				
+				
+				
+				
+			]
 		}
 	]
