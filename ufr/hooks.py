@@ -3,11 +3,11 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "ufr"
-app_title = "Ufr"
+app_title = "UFR"
 app_publisher = "RP"
-app_description = "ufr"
+app_description = "User Fast Reports"
 app_icon = "octicon octicon-file-directory"
-app_color = "grey"
+app_color = "green"
 app_email = "ufr@rpingenieria.com"
 app_license = "MIT"
 
