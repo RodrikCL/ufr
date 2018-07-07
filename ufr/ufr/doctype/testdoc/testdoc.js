@@ -1,12 +1,11 @@
-rappe.ui.form.on(‘TestDoc’, {
+frappe.ui.form.on("TestDoc", {
 refresh: function(frm) {
 
-$.getScript(“https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js”,function(){
-
-let chart = new frappe.Chart( “#chart”, {
+$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js",function(){
+let chart = new frappe.Chart( "#chart", {
 data: {
-labels: [“12am-3am”, “3am-6am”, “6am-9am”, “9am-12pm”,
-“12pm-3pm”, “3pm-6pm”, “6pm-9pm”, “9pm-12am”],
+labels: ["12am-3am","3am-6am","6am-9am","9am-12pm",
+"12pm-3pm","3pm-6pm","6pm-9pm","9pm-12am" ],
 
   datasets: [
     {
