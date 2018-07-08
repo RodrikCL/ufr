@@ -7,9 +7,12 @@ app_title = "UFR"
 app_publisher = "RP"
 app_description = "User Fast Reports"
 app_icon = "octicon octicon-file-directory"
-app_color = "green"
+app_color = "blue"
 app_email = "ufr@rpingenieria.com"
 app_license = "MIT"
+app_version = 0.0.1
+app_url = "https://github.com/RodrikCL/ufr"
+
 
 # Includes in <head>
 # ------------------
