@@ -13,16 +13,16 @@ labels: ["Qsa%","Qsm%","Qsb%"],
     }
   ],
 
-  yMarkers: [{ label: "Marker", value: 70,
-    options: { labelPos: 'left' }}],
-  yRegions: [{ label: "Region", start: -10, end: 50,
-    options: { labelPos: 'right' }}]
+ // yMarkers: [{ label: "Marker", value: 70,
+  //  options: { labelPos: 'left' }}],
+  //yRegions: [{ label: "Region", start: -10, end: 50,
+  //  options: { labelPos: 'right' }}]
 },
 
-title: "Estadisticcas",
+title: "Estadisticas",
 type: 'pie',
 height: 300,
-colors: ['purple', '#ffa3ef', 'light-blue'],
+colors: ['red', 'green', 'blue'],
 
 tooltipOptions: {
   formatTooltipX: d => (d + '').toUpperCase(),
