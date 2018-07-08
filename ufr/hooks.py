@@ -10,7 +10,7 @@ app_icon = "octicon octicon-file-directory"
 app_color = "blue"
 app_email = "ufr@rpingenieria.com"
 app_license = "MIT"
-app_version = 0.0.1
+app_version = "0.0.1"
 app_url = "https://github.com/RodrikCL/ufr"
 
 
