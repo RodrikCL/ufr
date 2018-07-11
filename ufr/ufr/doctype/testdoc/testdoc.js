@@ -1,7 +1,7 @@
 frappe.ui.form.on("TestDoc", {
 refresh: function(frm) {
 
-$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js",function(){
+$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js", function(){
 let chart = new frappe.Chart( "#chart", {
 data: {
 labels: ["Qsa%","Qsm%","Qsb%"],
@@ -13,10 +13,10 @@ labels: ["Qsa%","Qsm%","Qsb%"],
     }
   ],
 
- // yMarkers: [{ label: "Marker", value: 70,
-  //  options: { labelPos: 'left' }}],
-  //yRegions: [{ label: "Region", start: -10, end: 50,
-  //  options: { labelPos: 'right' }}]
+  yMarkers: [{ label: "Marker", value: 70,
+  options: { labelPos: 'left' }}],
+  yRegions: [{ label: "Region", start: -10, end: 50,
+  options: { labelPos: 'right' }}]
 },
 
 title: "Estadisticas",
@@ -25,8 +25,8 @@ height: 300,
 colors: ['red', 'green', 'blue'],
 
 tooltipOptions: {
-  formatTooltipX: d => (d + '').toUpperCase(),
-  formatTooltipY: d => d + ' pts',
+formatTooltipX: d => (d + '').toUpperCase(),
+formatTooltipY: d => d + ' pts',
 }
 });
 

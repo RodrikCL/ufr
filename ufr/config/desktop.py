@@ -6,9 +6,9 @@ def get_data():
 	return [
 		{
 			"module_name": "Ufr",
-			"color": "grey",
+			"color": "blue",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Ufr")
+			"label": _("User Fast Reports")
 		}
 	]
