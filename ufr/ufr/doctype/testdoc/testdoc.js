@@ -1,7 +1,7 @@
 frappe.ui.form.on(‘TestDoc’, {
 refresh: function(frm) {
 
-$.getScript(“https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js 1”,function(){
+$.getScript(“https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js” ,function(){
 
 let chart = new frappe.Chart( “#chart”, {
 data: {
