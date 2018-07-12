@@ -1,7 +1,8 @@
 ﻿frappe.ui.form.on("TestDoc", {
 refresh: function(frm) {
 
-$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js", function(){
+$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"
+		, function(){
 	
 	const data = {
     labels: ["12am-3am", "3am-6pm", "6am-9am", "9am-12am",
@@ -20,7 +21,7 @@ $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts
 }
 	const chart = new Chart("#chart", {  // or a DOM element,
                                             // new Chart() in case of ES6 module with above usage
-    parent: frm.fields_dict["graf"].wrapper
+    parent: frm.fields_dict["#graf"].wrapper
 	title: "My Awesome Chart",
     data: data,
     type: 'axis-mixed', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
