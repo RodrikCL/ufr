@@ -2,7 +2,7 @@
 refresh: function(frm) {
 
 $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js", function(){
-	let chart = new frappe.Chart( "#chart", {
+	let chart = new Chart( "#chart", {
     data: {
       labels: ["uno", "dos", "tres", "cuatro",
       "cinco", "seis", "siete", "ocho"],
