@@ -42,10 +42,11 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Tipo Anexo",
-				},{
+				},
+				{
 					"type": "doctype",
 					"name": "Matriz Objetivos",
-				}
+				}			
 							
 				
 			]
