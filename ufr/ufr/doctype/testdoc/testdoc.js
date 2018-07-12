@@ -2,22 +2,22 @@
 refresh: function(frm) {
 
 $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js", function(){
-	let chart = new frappe.Chart( "#chart", { // or DOM element
+	let chart = new frappe.Chart( "#chart", {
     data: {
-      labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
-      "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
+      labels: ["uno", "dos", "tres", "cuatro",
+      "cinco", "seis", "siete", "ocho"],
 
       datasets: [
         {
-          name: "Some Data", chartType: 'bar',
+          name: "Estadistica 1", chartType: 'pie',
           values: [25, 40, 30, 35, 8, 52, 17, -4]
         },
         {
-          name: "Another Set", chartType: 'bar',
+          name: "Estadistica 2", chartType: 'pie',
           values: [25, 50, -10, 15, 18, 32, 27, 14]
         },
         {
-          name: "Yet Another", chartType: 'line',
+          name: "Estadistica 3", chartType: 'pie',
           values: [15, 20, -3, -15, 58, 12, -17, 37]
         }
       ],
