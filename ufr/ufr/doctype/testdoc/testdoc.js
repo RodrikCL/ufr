@@ -1,7 +1,7 @@
 ﻿frappe.ui.form.on("TestDoc", {
 refresh: function(frm) {
 
-$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js "
+$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"
 																								, function(){
 	let chart = new frappe.Chart( "#chart", {
 											data: {
@@ -40,9 +40,8 @@ $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts
 											}
 								);
 
-																											}
+								}																											}
 			);
 					}
-}
-				
+	
 );
