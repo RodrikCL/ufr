@@ -26,6 +26,6 @@ $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts
     height: 250,
     colors: ['#7cd6fd', '#743ee2']
 })
-	chart.export();
+
   });
 }});
