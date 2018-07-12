@@ -28,5 +28,4 @@ $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts
 })
 	
   });
-	});
-});
+}});
