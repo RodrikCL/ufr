@@ -29,7 +29,7 @@ $.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts
     },
 
     title: "My Awesome Chart",
-    type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+    type: 'pie', // or 'bar', 'line', 'pie', 'percentage'
     height: 300,
     colors: ['purple', '#ffa3ef', 'light-blue'],
 
