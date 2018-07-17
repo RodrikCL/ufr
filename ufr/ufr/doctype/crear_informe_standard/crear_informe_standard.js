@@ -38,7 +38,7 @@ cur_frm.add_fetch("plantilla","severidad","severidad");
 cur_frm.add_fetch("plantilla","complej1","complej1");
 cur_frm.add_fetch("plantilla","ex_conclusion","ex_conclusion");
 cur_frm.add_fetch("plantilla",lugar_rep,"lugar");
-cur_frm.add_fetch("plantilla",equipo_rep_rep,"equipo");
+cur_frm.add_fetch("plantilla",equipo_rep,"equipo");
 
 
 //FILTRADO DE ORDENES DE CLIENTE
