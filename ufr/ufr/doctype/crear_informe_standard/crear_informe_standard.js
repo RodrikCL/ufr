@@ -305,14 +305,14 @@ if(Qsm>0){
 if(Qsb>0){
 		//texto para severidad baja
 
-	texto_conclusion=texto_conclusion+"Se encontraron "+sbaja+" hallazgos de Severidad Baja que requieren atención \r";
+	texto_conclusion=texto_conclusion+"Se encontraron "+Qsb+" hallazgos de Severidad Baja que requieren atención \r";
 	console.log("baja");
 }
 	texto_conclusion=texto_conclusion+"\r";
 
 // Sumar extractos	
 num_reg=cur_frm.doc.no_conformidades.length;
-	
+	console.log(num_reg);
 		for (i = 0; i < num_reg; i++)
 												{
 													 var str= cur_frm.doc.no_conformidades[i].ex_conclusion;

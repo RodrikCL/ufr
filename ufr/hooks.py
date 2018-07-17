@@ -12,7 +12,7 @@ app_email = "ufr@rpingenieria.com"
 app_license = "MIT"
 app_version = "0.1.0"
 app_url = "https://github.com/RodrikCL/ufr"
-
+fixtures = ["Print Format"]
 
 # Includes in <head>
 # ------------------
