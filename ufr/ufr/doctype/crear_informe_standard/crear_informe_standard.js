@@ -27,8 +27,8 @@ cur_frm.fields_dict["no_conformidades"].grid.get_field("plantilla").get_query = 
 
        return {
                filters:{
-                       "tipo_serv": cur_frm.doc.filtrar_por_tipo_serv,
-                       "tipo_tec": cur_frm.doc.filtrar_por_tipo_tec
+                       "tipo_serv": cur_frm.doc.filtrar_por_servicio,
+                       "tipo_tec": cur_frm.doc.filtrar_por_tecnologia
                }
        }
 }
