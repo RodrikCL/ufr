@@ -13,14 +13,7 @@ cur_frm.add_fetch("id_ejec","employee_name","employee_name");
 cur_frm.add_fetch("id_ejec","company_email","company_email");
 
 
-//CAPTURA DATOS DESDE TABLA NO CONFORMIDADES Y LAS ESCRIBE EN HALLAZGOS
-cur_frm.add_fetch("plantilla","tipo_serv","tipo_serv");
-cur_frm.add_fetch("plantilla","tipo_tec","tipo_tec");
-cur_frm.add_fetch("plantilla","ex_recomenda","ex_recomenda");
-cur_frm.add_fetch("plantilla","descripcion","descripcion");
-cur_frm.add_fetch("plantilla","severidad","severidad");
-cur_frm.add_fetch("plantilla","complej1","complej1");
-cur_frm.add_fetch("plantilla","ex_conclusion","ex_conclusion");
+
 
 //FILTRADO DE PLANTILLAS POR TIPO DE tipo_serv Y tipo_tec
 cur_frm.fields_dict["no_conformidades"].grid.get_field("plantilla").get_query = function(doc){
@@ -32,7 +25,19 @@ cur_frm.fields_dict["no_conformidades"].grid.get_field("plantilla").get_query = 
                }
        }
 }
+lugar_rep=cur_frm.doc.rep_lugar;
+equipo_rep=cur_frm.doc.rep_equipo;
 
+//CAPTURA DATOS DESDE TABLA NO CONFORMIDADES Y LAS ESCRIBE EN HALLAZGOS
+cur_frm.add_fetch("plantilla","tipo_serv","tipo_serv");
+cur_frm.add_fetch("plantilla","tipo_tec","tipo_tec");
+cur_frm.add_fetch("plantilla","ex_recomenda","ex_recomenda");
+cur_frm.add_fetch("plantilla","descripcion","descripcion");
+cur_frm.add_fetch("plantilla","severidad","severidad");
+cur_frm.add_fetch("plantilla","complej1","complej1");
+cur_frm.add_fetch("plantilla","ex_conclusion","ex_conclusion");
+cur_frm.add_fetch("plantilla","lugar",lugar_rep);
+cur_frm.add_fetch("plantilla","lugar",equipo_rep_rep);
 
 
 //FILTRADO DE ORDENES DE CLIENTE
