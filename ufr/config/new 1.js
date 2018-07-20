@@ -323,4 +323,10 @@ num_reg=cur_frm.doc.no_conformidades.length;
 
 
 cur_frm.set_value("conclusiones", texto_conclusion);
+
+
+
+
+
+
 	}	)

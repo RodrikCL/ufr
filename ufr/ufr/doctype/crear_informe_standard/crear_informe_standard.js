@@ -365,7 +365,29 @@ for (i=0;i<3;i++)
 						break;
 				}
 }
-
+for (i=0;i<num_reg;i++)
+{
+	equipo=cur_frm.doc.no_conformidades[i].equipo;
+	lugar=cur_frm.doc.no_conformidades[i].lugar;
+	conc=cur_frm.doc.no_conformidades[i].ex_conclusion;
+	reco=cur_frm.doc.no_conformidades[i].ex_recomenda;
+	conc=conc.replace("#equipo#", equipo);
+	conc=conc.replace("#lugar#",lugar);
+	reco=reco.replace("#equipo#", equipo);
+	reco=reco.replace("#lugar#",lugar);
+	
+	newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
+	newconc.equipo_afectado=equipo;
+	newconc.lugar_afectado=lugar;
+	newconc.conclusion=conc;
+	newconc.recomendacion=reco;
+	
+	
+	
+	
+	
+}//rescata conclusiones y recomendaciones de cada hallazgo
+	
 	}	)
 	}
 });
