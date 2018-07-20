@@ -331,7 +331,19 @@ num_reg=cur_frm.doc.no_conformidades.length;
 
 
 
-cur_frm.set_value("conclusiones", texto_conclusion);
+cur_frm.set_value("conclusiones", tab_conclu);
+//Tabla de conclusiones
+	var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","testadisticas");
+						newconc.equipo_afectado = "Todos"
+						newconc.lugar_afectado = num_reg
+						newconc.conclusion="Se encontraron "+Qsa+" hallazgos de Severidad Alta.";
+						newconc.recomendacion="que requieren urgente atención"
+						console.log("datos del boton")
+						cur_frm.refresh();
+
+
+
+
 	}	)
 	}
 });
