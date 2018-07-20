@@ -87,9 +87,9 @@ frappe.ui.form.on("Crear Informe Standard", "boton_e", function(frm)
 
 													 
 //Total hallazgos
-for (i=0;i<13;i++)
+for (j=0;j<13;j++)
 				{
-					switch(i){
+					switch(j){
 					case 0:
 						var newstat = frappe.model.add_child(cur_frm.doc,"Estadisticas","testadisticas");
 						newstat.parametro = "Total hallazgos"
@@ -218,40 +218,40 @@ for (i=0;i<13;i++)
 
 num_reg=cur_frm.doc.no_conformidades.length;
 														
-for (i = 0; i < num_reg; i++)
+for (k = 0; k < num_reg; k++)
 {
-							if(cur_frm.doc.no_conformidades[i].complej1=="Alta")
+							if(cur_frm.doc.no_conformidades[k].complej1=="Alta")
 								{
 									var newstat = frappe.model.add_child(cur_frm.doc, "Tabla 20", "pareto20");
-									newstat.id_hallazgo = i+1;
-									newstat.equipo = cur_frm.doc.no_conformidades[i].equipo;
-									newstat.lugar = cur_frm.doc.no_conformidades[i].lugar;
-									newstat.descripcion=cur_frm.doc.no_conformidades[i].descripcion;
-									newstat.complejidad=cur_frm.doc.no_conformidades[i].complej1; 
-									newstat.severidad=cur_frm.doc.no_conformidades[i].severidad;
+									newstat.id_hallazgo = k+1;
+									newstat.equipo = cur_frm.doc.no_conformidades[k].equipo;
+									newstat.lugar = cur_frm.doc.no_conformidades[k].lugar;
+									newstat.descripcion=cur_frm.doc.no_conformidades[k].descripcion;
+									newstat.complejidad=cur_frm.doc.no_conformidades[k].complej1; 
+									newstat.severidad=cur_frm.doc.no_conformidades[k].severidad;
 									cur_frm.refresh();
 								}
 
-							else if(cur_frm.doc.no_conformidades[i].complej1=="Media")
+							else if(cur_frm.doc.no_conformidades[k].complej1=="Media")
 								{
 									var newstat = frappe.model.add_child(cur_frm.doc, "Tabla 80", "pareto80");
-									newstat.id_hallazgo = i+1;
-									newstat.equipo = cur_frm.doc.no_conformidades[i].equipo;
-									newstat.lugar = cur_frm.doc.no_conformidades[i].lugar;
-									newstat.descripcion=cur_frm.doc.no_conformidades[i].descripcion;
-									newstat.complejidad=cur_frm.doc.no_conformidades[i].complej1; 
-									newstat.severidad=cur_frm.doc.no_conformidades[i].severidad;
+									newstat.id_hallazgo = k+1;
+									newstat.equipo = cur_frm.doc.no_conformidades[k].equipo;
+									newstat.lugar = cur_frm.doc.no_conformidades[k].lugar;
+									newstat.descripcion=cur_frm.doc.no_conformidades[k].descripcion;
+									newstat.complejidad=cur_frm.doc.no_conformidades[k].complej1; 
+									newstat.severidad=cur_frm.doc.no_conformidades[k].severidad;
 									cur_frm.refresh();
 								}
-							else if(cur_frm.doc.no_conformidades[i].complej1=="Baja")
+							else if(cur_frm.doc.no_conformidades[k].complej1=="Baja")
 								{
 									var newstat = frappe.model.add_child(cur_frm.doc, "Tabla 80", "pareto80");
-									newstat.id_hallazgo = i+1;
-									newstat.equipo = cur_frm.doc.no_conformidades[i].equipo;
-									newstat.lugar = cur_frm.doc.no_conformidades[i].lugar;
-									newstat.descripcion=cur_frm.doc.no_conformidades[i].descripcion;
-									newstat.complejidad=cur_frm.doc.no_conformidades[i].complej1; 
-									newstat.severidad=cur_frm.doc.no_conformidades[i].severidad;
+									newstat.id_hallazgo = k+1;
+									newstat.equipo = cur_frm.doc.no_conformidades[k].equipo;
+									newstat.lugar = cur_frm.doc.no_conformidades[k].lugar;
+									newstat.descripcion=cur_frm.doc.no_conformidades[k].descripcion;
+									newstat.complejidad=cur_frm.doc.no_conformidades[k].complej1; 
+									newstat.severidad=cur_frm.doc.no_conformidades[k].severidad;
 									cur_frm.refresh();
 	
 	
@@ -317,15 +317,15 @@ if(Qsb>0){
 // Sumar extractos	
 num_reg=cur_frm.doc.no_conformidades.length;
 	console.log(num_reg);
-		for (i = 0; i < num_reg; i++)
+		for (l = 0; l < num_reg; l++)
 												{
-													 var str= cur_frm.doc.no_conformidades[i].ex_conclusion;
-													 equipo=cur_frm.doc.no_conformidades[i].equipo;
-													 lugar=cur_frm.doc.no_conformidades[i].lugar;
+													 var str= cur_frm.doc.no_conformidades[l].ex_conclusion;
+													 equipo=cur_frm.doc.no_conformidades[l].equipo;
+													 lugar=cur_frm.doc.no_conformidades[l].lugar;
 													 ex_equipo=str.replace("#equipo#", equipo);
 													 extracto=ex_equipo.replace("#lugar#",lugar);
 													 texto_conclusion=texto_conclusion+extracto+"\r"+"\r";
-													console.log(i);
+													console.log(l);
 												};
 
 
