@@ -333,30 +333,38 @@ num_reg=cur_frm.doc.no_conformidades.length;
 
 cur_frm.set_value("conclusiones", texto_conclusion);
 //Tabla de conclusiones
-			var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
-						newconc.equipo_afectado = "Los determinados"
-						newconc.lugar_afectado = "Los indicados"
-						newconc.conclusion="Se encontraron "+Qsa+" hallazgos de Severidad Alta.";
-						newconc.recomendacion="Se debe programar trabajos de regularización de forma urgente."
-						console.log("linea conclusion alta")
-						cur_frm.refresh();
-						
-			var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
-						newconc.equipo_afectado = "Los determinados"
-						newconc.lugar_afectado = "Los indicados"
-						newconc.conclusion="Se encontraron "+Qsm+" hallazgos de Severidad Media.";
-						newconc.recomendacion="que requieren atención prioritaria."
-						console.log("linea conclusion media")
-						cur_frm.refresh();
-						
-			var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
-						newconc.equipo_afectado = "Los determinados"
-						newconc.lugar_afectado = "Los indicados"
-						newconc.conclusion="Se encontraron "+Qsb+" hallazgos de Severidad Baja.";
-						newconc.recomendacion="que requieren atención."
-						console.log("linea conclusion media")
-						cur_frm.refresh();
-
+for (i=0;i<13;i++)
+{
+				switch(i){
+						case 0:
+								var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
+									newconc.equipo_afectado = "Los determinados"
+									newconc.lugar_afectado = "Los indicados"
+									newconc.conclusion="Se encontraron "+Qsa+" hallazgos de Severidad Alta.";
+									newconc.recomendacion="Se debe programar trabajos de regularización de forma urgente."
+									console.log("linea conclusion alta")
+									cur_frm.refresh();
+						break;
+						case 1:
+								var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
+									newconc.equipo_afectado = "Los determinados"
+									newconc.lugar_afectado = "Los indicados"
+									newconc.conclusion="Se encontraron "+Qsm+" hallazgos de Severidad Media.";
+									newconc.recomendacion="que requieren atención prioritaria."
+									console.log("linea conclusion media")
+									cur_frm.refresh();
+						break;
+						case 2:
+								var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
+									newconc.equipo_afectado = "Los determinados"
+									newconc.lugar_afectado = "Los indicados"
+									newconc.conclusion="Se encontraron "+Qsb+" hallazgos de Severidad Baja.";
+									newconc.recomendacion="que requieren atención."
+									console.log("linea conclusion media")
+									cur_frm.refresh();
+						break;
+				}
+}
 
 	}	)
 	}
