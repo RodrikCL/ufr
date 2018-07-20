@@ -331,9 +331,9 @@ num_reg=cur_frm.doc.no_conformidades.length;
 
 
 
-cur_frm.set_value("conclusiones", tab_conclu);
+cur_frm.set_value("conclusiones", texto_conclusion);
 //Tabla de conclusiones
-	var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","testadisticas");
+	var newconc = frappe.model.add_child(cur_frm.doc,"Tabla Conclusiones","tab_conclu");
 						newconc.equipo_afectado = "Todos"
 						newconc.lugar_afectado = num_reg
 						newconc.conclusion="Se encontraron "+Qsa+" hallazgos de Severidad Alta.";
