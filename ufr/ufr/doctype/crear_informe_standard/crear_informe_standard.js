@@ -381,7 +381,7 @@ for (i=0;i<num_reg;i++)
 	newconc.lugar_afectado=lugar;
 	newconc.conclusion=conc;
 	newconc.recomendacion=reco;
-	
+	console.log(i);
 	
 	
 	
