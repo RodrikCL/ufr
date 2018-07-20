@@ -342,7 +342,7 @@ for (i=0;i<3;i++)
 									newconc.lugar_afectado = "Los indicados";
 									newconc.conclusion="Se encontraron "+Qsa+" hallazgos de Severidad Alta.";
 									newconc.recomendacion="Se debe programar trabajos de regularización de forma urgente.";
-									console.log("linea conclusion alta")
+									console.log("linea conclusion alta");
 									cur_frm.refresh();
 						break;
 						case 1:
@@ -351,7 +351,7 @@ for (i=0;i<3;i++)
 									newconc.lugar_afectado = "Los indicados";
 									newconc.conclusion="Se encontraron "+Qsm+" hallazgos de Severidad Media.";
 									newconc.recomendacion="Se debe programar trabajos de regularización de forma prioritaria.";
-									console.log("linea conclusion media")
+									console.log("linea conclusion media");
 									cur_frm.refresh();
 						break;
 						case 2:
@@ -360,7 +360,7 @@ for (i=0;i<3;i++)
 									newconc.lugar_afectado = "Los indicados";
 									newconc.conclusion="Se encontraron "+Qsb+" hallazgos de Severidad Baja.";
 									newconc.recomendacion="Se debe programar trabajos de regularización.";
-									console.log("linea conclusion baja")
+									console.log("linea conclusion baja");
 									cur_frm.refresh();
 						break;
 				}
