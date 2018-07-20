@@ -350,7 +350,7 @@ for (i=0;i<13;i++)
 									newconc.equipo_afectado = "Los determinados"
 									newconc.lugar_afectado = "Los indicados"
 									newconc.conclusion="Se encontraron "+Qsm+" hallazgos de Severidad Media.";
-									newconc.recomendacion="que requieren atención prioritaria."
+									newconc.recomendacion="Se debe programar trabajos de regularización de forma prioritaria."
 									console.log("linea conclusion media")
 									cur_frm.refresh();
 						break;
@@ -359,8 +359,8 @@ for (i=0;i<13;i++)
 									newconc.equipo_afectado = "Los determinados"
 									newconc.lugar_afectado = "Los indicados"
 									newconc.conclusion="Se encontraron "+Qsb+" hallazgos de Severidad Baja.";
-									newconc.recomendacion="que requieren atención."
-									console.log("linea conclusion media")
+									newconc.recomendacion="Se debe programar trabajos de regularización."
+									console.log("linea conclusion baja")
 									cur_frm.refresh();
 						break;
 				}
