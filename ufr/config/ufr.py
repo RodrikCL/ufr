@@ -41,7 +41,7 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Tipo Anexo",
+					"name": "Tipo Anexos",
 				},
 							
 							
