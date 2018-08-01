@@ -12,7 +12,7 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Crear Informe Certificacion"
+					"name": "Crear Informe Certificacion",
 				},
 				{
 					"type": "doctype",
@@ -21,7 +21,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Registros Auxiliares"),
+			"label": _("Registros Maestros"),
 			"items": [
 				{
 					"type": "doctype",
@@ -43,16 +43,13 @@ def get_data():
 					"type": "doctype",
 					"name": "Tipo Anexo",
 				},
-				{
-					"type": "doctype",
-					"name": "Matriz Objetivos",
-				}			
+							
 							
 				
 			]
 		},
 		{
-			"label": _("Matrices"),
+			"label": _("Matrices para Informar"),
 			"items": [
 				
 				{
@@ -63,10 +60,7 @@ def get_data():
 					"type": "doctype",
 					"name": "Matrices Certificacion",
 				},
-				
-				
-				
-				
+
 			]
 		},
 		{
