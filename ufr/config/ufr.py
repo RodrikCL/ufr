@@ -21,7 +21,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Registros Maestros"),
+			"label": _("Registros de Tipos"),
 			"items": [
 				{
 					"type": "doctype",
