@@ -4,7 +4,7 @@
 frappe.ui.form.on('TestDoc', {
 	 refresh: function(frm) {
 
-              var valor1=0;
+            //  var valor1=0;
   //cur_frm.doc.num1;
   //var valor2=cur_frm.doc.num2;
   //var valor3=cur_frm.doc.num3;
@@ -28,5 +28,5 @@ frappe.ui.form.on('TestDoc', {
         //      })
 
 
-	// }
+	 }
 });
