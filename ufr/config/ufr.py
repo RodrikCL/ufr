@@ -80,7 +80,7 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "clientes",
+					"name": "Clientes",
 				},
 				{
 					"type": "doctype",
@@ -88,7 +88,7 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": ""
+					"name": "",
 				},
 			]
 		},
