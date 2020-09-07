@@ -3,9 +3,9 @@
 
 frappe.ui.form.on('TestDoc', {
 	// refresh: function(frm) {
-  var valor1=cur_frm.doc.num1;
-  var valor2=cur_frm.doc.num2;
-  var valor3=cur_frm.doc.num3;
+//  var valor1=cur_frm.doc.num1;
+  //var valor2=cur_frm.doc.num2;
+  //var valor3=cur_frm.doc.num3;
 
 //  data = {
   //        labels: ["valor1", "valor2", "valor3" ],
