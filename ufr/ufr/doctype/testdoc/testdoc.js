@@ -20,7 +20,7 @@ frappe.ui.form.on('TestDoc', {
                               }
           ]
                         }
-        chart = new frappe.Chart("#chart", {  // or a DOM element,
+        chart = new frappe.Chart("#body_div", {  // or a DOM element,
                                                   // new Chart() in case of ES6 module with above usage
           title: "My Awesome Chart",
           data: data,
