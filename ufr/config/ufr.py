@@ -18,7 +18,7 @@ def get_data():
 					"type": "doctype",
 					"name": "Crear Informe Actividades"
 				}
-			]
+								]
 		},
 		{
 			"label": _("Registros de Tipos"),
@@ -43,8 +43,6 @@ def get_data():
 					"type": "doctype",
 					"name": "Tipo Anexo",
 				},
-
-
 
 			]
 		},
@@ -75,10 +73,6 @@ def get_data():
 					"type": "doctype",
 					"name": "",
 				},
-
-
-
-
 			]
 		},
 		{
@@ -97,5 +91,5 @@ def get_data():
 					"name": ""
 				}
 			]
-		}
+		},
 	]
