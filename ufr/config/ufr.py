@@ -71,7 +71,7 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "",
+					"name": "Clientes",
 				},
 			]
 		},
