@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2018, RP and Contributors
+# Copyright (c) 2020, RP and Contributors
 # See license.txt
 from __future__ import unicode_literals
 
-import frappe
+# import frappe
 import unittest
 
 class TestTestDoc(unittest.TestCase):

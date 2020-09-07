@@ -1,33 +1,8 @@
-﻿frappe.ui.form.on("TestDoc", {
-refresh: function(frm) {
+// Copyright (c) 2020, RP and contributors
+// For license information, please see license.txt
 
-$.getScript("https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"
-		, function(){
-	
-	const data = {
-    labels: ["12am-3am", "3am-6pm", "6am-9am", "9am-12am",
-        "12pm-3pm", "3pm-6pm", "6pm-9pm", "9am-12am"
-    ],
-    datasets: [
-        {
-            name: "Some Data", type: "bar",
-            values: [25, 40, 30, 35, 8, 52, 17, -4]
-        },
-        {
-            name: "Another Set", type: "line",
-            values: [25, 50, -10, 15, 18, 32, 27, 14]
-        }
-    ]
-}
-	const chart = new Chart("#chart", {  // or a DOM element,
-                                            // new Chart() in case of ES6 module with above usage
-    parent: frm.fields_dict["#graf"].wrapper
-	title: "My Awesome Chart",
-    data: data,
-    type: 'axis-mixed', // or 'bar', 'line', 'scatter', 'pie', 'percentage'
-    height: 250,
-    colors: ['#7cd6fd', '#743ee2']
-})
+frappe.ui.form.on('TestDoc', {
+	// refresh: function(frm) {
 
-  });
-}});
+	// }
+});

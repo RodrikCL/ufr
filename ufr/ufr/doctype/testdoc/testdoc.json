@@ -1,32 +1,37 @@
 {
- "autoname": "Test.###",
- "creation": "2018-07-05 18:22:43.733997",
+ "creation": "2020-09-07 03:12:15.154126",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "num1",
   "num2",
-  "num3"
+  "num3",
+  "chart"
  ],
  "fields": [
   {
    "fieldname": "num1",
-   "fieldtype": "Int",
-   "label": "Valor 1"
+   "fieldtype": "Data",
+   "label": "Valor1"
   },
   {
    "fieldname": "num2",
-   "fieldtype": "Int",
-   "label": "Valor 2"
+   "fieldtype": "Data",
+   "label": "Valor2"
   },
   {
    "fieldname": "num3",
-   "fieldtype": "Int",
-   "label": "Valor 2"
+   "fieldtype": "Data",
+   "label": "Valor3"
+  },
+  {
+   "fieldname": "chart",
+   "fieldtype": "Image",
+   "label": "Graph"
   }
  ],
- "modified": "2020-09-07 02:31:25.998843",
+ "modified": "2020-09-07 03:12:15.154126",
  "modified_by": "Administrator",
  "module": "Ufr",
  "name": "TestDoc",
@@ -45,6 +50,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
