@@ -43,15 +43,15 @@ def get_data():
 					"type": "doctype",
 					"name": "Tipo Anexo",
 				},
-							
-							
-				
+
+
+
 			]
 		},
 		{
 			"label": _("Matrices para Informar"),
 			"items": [
-				
+
 				{
 					"type": "doctype",
 					"name": "Matrices Standard",
@@ -66,7 +66,7 @@ def get_data():
 		{
 			"label": _("Test"),
 			"items": [
-				
+
 				{
 					"type": "doctype",
 					"name": "TestDoc",
@@ -75,10 +75,27 @@ def get_data():
 					"type": "doctype",
 					"name": "",
 				},
-				
-				
-				
-				
+
+
+
+
 			]
 		}
+		{
+			"label": _("Informes de Mantención"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "clientes",
+				},
+				{
+					"type": "doctype",
+					"name": "",
+				},
+				{
+					"type": "doctype",
+					"name": ""
+				}
+			]
+		},
 	]
