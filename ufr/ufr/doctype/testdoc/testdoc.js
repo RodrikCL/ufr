@@ -9,15 +9,17 @@ frappe.ui.form.on('TestDoc', {
             var valor2=cur_frm.doc.num2;
             var valor3=cur_frm.doc.num3;
 
- data = {
-        labels: ["valor1", "valor2", "valor3" ],
-      datasets: [
-              {
-            name: "Some Data", type: "bar",
-          values: [valor1, valor2, valor3]
-        }
-      ]
-      }
+            data = {
+                    labels: ["12am-3am", "3am-6pm", "6am-9am", "9am-12am",
+                              "12pm-3pm", "3pm-6pm", "6pm-9pm", "9am-12am"
+                            ],
+                    datasets: [
+                              {
+                              name: "Some Data", type: "bar",
+                              values: [25, 40, 30, 35, 8, 52, 17, -4]
+                              }
+          ]
+                        }
         chart = new frappe.Chart("#chart", {  // or a DOM element,
                                                   // new Chart() in case of ES6 module with above usage
           title: "My Awesome Chart",
