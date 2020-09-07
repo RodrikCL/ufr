@@ -7,6 +7,7 @@
   "num1",
   "num2",
   "num3",
+  "test",
   "chart"
  ],
  "fields": [
@@ -27,11 +28,16 @@
   },
   {
    "fieldname": "chart",
+   "fieldtype": "HTML",
+   "label": "vista"
+  },
+  {
+   "fieldname": "test",
    "fieldtype": "Image",
    "label": "Graph"
   }
  ],
- "modified": "2020-09-07 03:12:15.154126",
+ "modified": "2020-09-07 04:08:35.017374",
  "modified_by": "Administrator",
  "module": "Ufr",
  "name": "TestDoc",
