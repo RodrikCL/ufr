@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('TestDoc', {
-	// refresh: function(frm) {
+	 refresh: function(frm) {
 
               var valor1=0;
   //cur_frm.doc.num1;
