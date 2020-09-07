@@ -80,7 +80,7 @@ def get_data():
 
 
 			]
-		}
+		},
 		{
 			"label": _("Informes de Mantención"),
 			"items": [
